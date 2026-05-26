@@ -1,6 +1,6 @@
 # 🎓 AI Teacher Agent
 
-생성형 AI와 Agent Workflow를 활용하여  
+생성형 AI와 Agent Workflow를 활용하여   
 PPT 기반 강의 콘텐츠를 자동 생성하는 AI 교육 자동화 프로젝트입니다.
 
 사용자가 PPT를 업로드하면 AI가 슬라이드 내용을 분석하고,  
