@@ -281,3 +281,8 @@ def test_generation_rules_preserve_uncertainty_and_first_slide(ns):
 def test_first_slide_rule_not_applied_to_later_slide(ns):
     ns['invoke_checked_llm']({'slide_idx':1},'script',[SystemMessage(content='대본 작성')],1400)
     assert '첫 슬라이드다' not in ns['llm'].invoke.call_args.args[0][0].content
+
+def test_libreoffice_profile_is_outside_long_work_directory():
+    source = ''.join(BOOK['cells'][33]['source'])
+    assert 'tempfile.mkdtemp(prefix="lecture-lo-")' in source
+    assert 'profile_dir = work_dir' not in source

@@ -60,6 +60,8 @@ python -m pytest test_lecture_agent.py -q
 
 ### 생성 결과 검증
 
+키 없는 테스트 **38개**와 `sample2.pptx` **3장 전체의 실제 API 통합 실행**을 완료했습니다. PPT 변환부터 최종 영상·요약·퀴즈까지 생성했으며, 결과 영상은 **1920×1080, 약 3분 49초**입니다. 슬라이드별 음성·영상 길이 일치와 최종 영상 전체 디코딩도 확인했습니다. [실행 조건과 점검 결과](INTEGRATION_CHECK.md)
+
 검색 자료는 슬라이드 원문을 보충하는 용도로 사용하고, 대본과 요약에도 원문을 함께 전달합니다. 단계별 출력 한도와 종료 사유를 확인하며, 길이 제한으로 중단되거나 내용이 비어 있으면 다음 단계로 넘기지 않습니다.
 
 퀴즈는 문제·O/X 정답·해설을 포함한 JSON으로 생성합니다. 문제 3개, 필수 항목, 중복 여부를 검증한 뒤 코드에서 정답·해설 접기 화면을 만듭니다. 이 검증은 형식과 완결성에 대한 검사이며, 내용의 사실성이나 학습 효과를 보장하지는 않습니다.
@@ -67,6 +69,7 @@ python -m pytest test_lecture_agent.py -q
 ## 결과 자료
 
 - [구현 설명 PDF · 처리 흐름, 역할, 코드와 검증 범위](ai-teacher-implementation.pdf)
+- [통합 실행 점검 · 입력 3장부터 영상·요약·퀴즈까지](INTEGRATION_CHECK.md)
 - [팀 결과보고서](https://docs.google.com/presentation/d/1g8h8o1PnQBsoNxjZmBoTUkpjjkBB5Apa/edit)
 - [결과 영상](https://drive.google.com/file/d/1Hu2KxJRCVM9nWxRLL6lqsX2cPwdfrMUn/view)
 - [포트폴리오](https://app.notion.com/p/LLM-AI-Agent-3617a7a87a1780109909f646b3dcf87b)
