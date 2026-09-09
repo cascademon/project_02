@@ -1,0 +1,9 @@
+.env
+api_key.txt
+.secrets/
+__pycache__/
+.pytest_cache/
+webio/
+step2_output/
+test-output/
+*.pyc

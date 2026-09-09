@@ -1,0 +1,7 @@
+langgraph
+langchain-openai
+langchain-tavily
+python-pptx
+Pillow
+gradio
+matplotlib
