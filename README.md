@@ -71,7 +71,8 @@ python -m pytest test_lecture_agent.py -q
 - [구현 설명 PDF · 처리 흐름, 역할, 코드와 검증 범위](ai-teacher-implementation.pdf)
 - [통합 실행 점검 · 입력 3장부터 영상·요약·퀴즈까지](INTEGRATION_CHECK.md)
 - [팀 결과보고서](https://docs.google.com/presentation/d/1g8h8o1PnQBsoNxjZmBoTUkpjjkBB5Apa/edit)
-- [결과 영상](https://drive.google.com/file/d/1Hu2KxJRCVM9nWxRLL6lqsX2cPwdfrMUn/view)
+- [기존 프로젝트 결과 영상](https://drive.google.com/file/d/1Hu2KxJRCVM9nWxRLL6lqsX2cPwdfrMUn/view)
+- [입력 예시 3장으로 생성한 통합 실행 영상](https://drive.google.com/file/d/1HUfZMj70JttCiwuKOCaq3EOgDh5z7YIp/view?usp=sharing)
 - [포트폴리오](https://app.notion.com/p/LLM-AI-Agent-3617a7a87a1780109909f646b3dcf87b)
 
 ## 한계와 향후 개선
